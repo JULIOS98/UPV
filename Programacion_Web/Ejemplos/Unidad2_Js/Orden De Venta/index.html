@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orden de Venta
+
+    </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="titulo"><h1> PUNTO DE VENTA</h1> </div>
+<main>
+    
+
+    <div  id="mostrador">
+        <div class="producto">
+          <img src="img/1.png" alt=""> 
+          <label for="" class="precio">350</label>
+          <p>Unidades</p>  <input type="number" min="0" value="0"  onchange="calcular()">
+        </div>
+
+        <div class="producto">
+          <img src="img/1.png" alt="">
+          <label for="" class="precio">440</label>
+          <p>Unidades</p>  <input type="number" min="0" value="0"  onchange="calcular()">
+        </div>
+
+        <div class="producto">
+          <img src="img/1.png" alt="">
+          <label for="" class="precio">500</label>
+          <p>Unidades</p>  <input type="number" min="0" value="0"  onchange="calcular()">
+        </div>
+
+       
+
+    </div>    
+   
+ <div>
+  
+  <button id="agreagar" > Nuevo Producto</button>
+
+
+   <p>RECUENTO</p>
+     <div id="subtotal"></div>
+     <div id="iva"></div>
+     <div id="total"></div>
+
+    </div>
+    
+
+   
+</main>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    
+    
+</body>
+</html>

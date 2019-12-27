@@ -1,0 +1,42 @@
+
+
+.unidad{
+    height: 250px;
+}
+.producto{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input{
+    width: 40px;
+    height: 10px;
+}
+h1{
+    display: inline;
+    background-color: gray;
+    color: white;
+}
+#mostrador{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+   
+}
+body{
+    background-color: gray;
+
+}
+main{
+    background-color: chocolate;
+    border-radius: 20px;
+    width: 1000px;
+  
+}

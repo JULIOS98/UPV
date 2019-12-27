@@ -1,0 +1,15 @@
+input{
+	font-family:Verdana, Courier;
+	color: red;
+}
+input[type='email']{
+	color: green;	
+	font-weight: 200;
+}
+label{
+	display: inline-block;
+	width: 200px;
+}
+form div{
+	margin-top: 10px;
+}

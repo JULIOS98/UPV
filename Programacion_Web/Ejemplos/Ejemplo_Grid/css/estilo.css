@@ -1,0 +1,31 @@
+
+body
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px auto 60px;
+    grid-template-areas: 'encabezado encabezado','principal lateral', 'pie .'; 
+}
+
+header{
+    grid-area: 'encabezado';
+    background-color: red;
+
+}
+
+main{
+    grid-area: 'principal';
+    background-color: yellow;
+}
+
+aside{
+    grid-area: 'lateral';
+    background-color: green;
+}
+
+footer
+{
+    grid-area: 'pie';
+    background-color: orange;
+}
+

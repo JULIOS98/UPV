@@ -1,0 +1,57 @@
+/*.contenedor
+{
+
+    text-align: center;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Tabla {
+    
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+   
+    
+}
+
+.tabla2
+{
+    text-align: center
+}
+
+table
+{
+    position: relative;
+    margin: auto;
+
+}
+
+#IMG
+{
+    background-color: blueviolet;
+    color: white;
+}
+
+#CAT
+{
+    background-color: chocolate;
+    color: white;
+
+}
+
+#RIESGO
+{
+    background-color: crimson;
+    color: white;
+
+}
+
+.ROJO
+{
+    color: red;
+}

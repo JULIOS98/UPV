@@ -1,0 +1,17 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: auto;
+}
+
+.principal
+{
+    display: flex;
+}

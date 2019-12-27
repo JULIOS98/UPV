@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    background: gray;
+}
+
+#logo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    background: black;
+    color: whitesmoke
+
+}
+
+.redes
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 100%;
+    color: white;
+}
+
+#icono1
+{
+    top: 40px;
+    right: 120px;
+}
+
+#icono2
+{
+    top: 40px;
+    right: 70px;
+}
+
+#icono3
+{
+    top: 40px;
+    right: 20px;
+}
+
+
+nav{
+
+    
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+    background: rgb(153, 120, 120);
+
+}
+
+.botones
+{
+    float: left;
+    width: 196px;
+    height: 50px;
+    margin: 0px 2px;
+    background: blueviolet;
+    color: white;
+
+}
+
+#top
+{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 190px;
+    background: rgb(153, 120, 1);
+}
+
+#top ul{
+    width: 1010px;
+    height: 190px;
+}
+
+#top ul li
+{
+    float: left;
+    width: 326px;
+    height: 190px;
+    background: black;
+    margin-right: 10px; 
+    color: white;
+
+}
+
+section
+{
+    position: relative;
+    margin: auto;
+    /*margin-bottom: 20px;*/
+    width: 1000px;
+    height: 450px;
+    background: rgb(153, 12, 1);
+}
+
+#izquierdo
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 450px;
+    background: black;
+}
+
+article
+{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 450px;
+    background: blue;
+}
+
+#derecho
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 450px;
+    background: black;
+}
+
+
+footer
+{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 70px;
+    background: rgba(144, 223,1);
+}

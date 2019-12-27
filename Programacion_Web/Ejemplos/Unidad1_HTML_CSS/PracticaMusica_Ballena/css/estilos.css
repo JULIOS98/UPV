@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --color-header: rgb(105, 40, 40);
+    --color-nav: rgb(114, 50, 50);
+    --border-bottom-style: solid rgb(95, 43, 43) 1px;
+    --color-div: rgba(105, 40, 40, 0.353);
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background: var(--color-header);
+    border-bottom: var(--border-bottom-style);
+    padding-left: 20px;
+    height: 80px;
+}
+header div{
+    background-image: url("../img/logoheader.png");
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 100px;
+}
+nav{
+    background: var(--color-nav);
+    padding: 5px;
+    display: flex;
+}
+nav div{
+    padding-left: 20px;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: rgb(255, 231, 126);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-banner-1{
+    background-image: url(../img/imagine-dragons-banner.png);
+    width: 65%;
+    background-size: cover;
+}
+.contenedor-info{
+    background: var(--color-div);
+    width: 35%;
+    padding: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+p{
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+}

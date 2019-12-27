@@ -1,0 +1,42 @@
+#contenedor_universal
+{
+    background-color: rgb(90, 78, 78); 
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgba(161, 95, 40, 0.644);
+}
+
+#titulo
+{
+    text-align: center;
+    font-family: cursive;
+    color: chocolate;
+}
+
+#tabla
+{
+    width: 500px;
+    margin: 0 auto;
+  
+
+}
+
+.cuadro1
+{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+}
+
+.etiquetas
+{
+ color: white;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+/*Margin = Margen Externa*/
+/*Padding = MArgen Interna*/
+
+body
+{
+    background: rgb(216, 7, 7);
+
+}
+header
+{
+    width: 1000px;
+    height: 200px;
+    background: pink;
+    margin: 20px;
+    border: 5px solid yellow;
+    padding: 20px;
+}
+
+#logo
+{
+    width: 200px;
+    height: 60px;
+    background: green;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#caja
+{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+
+.grupo
+{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+}
+
+#cajota
+{
+    display: flex;
+}

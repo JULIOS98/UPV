@@ -1,0 +1,63 @@
+body{
+    font-size: 20px;
+    background-color:white;
+}
+
+body .container{
+    font-size: 20px;
+    background-color:gray;
+}
+
+body .container .botoncito {
+
+    color:white;
+}
+body .container .botoncito:hover {
+ 
+   color:black;
+}
+
+body .container .sexo {
+    font-size: 20px;
+    background-color:white; 
+    color:black 
+} 
+body .container .usuario {
+    font-size: 20px;
+    background-color:black;
+    color:white;
+} 
+
+body .container .contrase{
+    font-size: 20px;
+    background-color:white; 
+    color:black 
+} 
+
+body .container .fechan {
+    font-size: 20px;
+    background-color:black;
+    color:white;
+} 
+
+body .container .correo {
+    font-size: 20px;
+    background-color:white; 
+    color:black 
+} 
+body .container .estado {
+    font-size: 20px;
+    background-color:black;
+    color:white;
+}
+
+body .container .ciudad{
+    font-size: 20px;
+    background-color:white;
+    color:black
+} 
+
+
+
+
+

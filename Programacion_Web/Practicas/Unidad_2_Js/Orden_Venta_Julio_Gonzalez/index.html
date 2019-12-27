@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orden de Venta</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="contenedor_universal">
+
+        <div class="caja">
+
+        <div id="titulo">
+            <h1>Orden de Venta</h1>
+        </div>
+
+
+        <div class="cajota">
+
+       
+
+        <div class="caja_producto1">
+            
+            <img class="fotos" src="img/cremas.JPEG" alt="Imagen no disponible"> <br>
+            $<label for="precios" class="precios"> 100</label> <br>
+            <input type="number" min="0" max="10" class="iteradores" onchange="calcular()" placeholder="Elija Cantidad">
+
+        </div>
+
+
+        <div class="caja_producto2">
+
+            <img class="fotos" src="img/shampoos.JPEG" alt="Imagen no disponible"> <br>
+            $<label for="precios" class="precios">500</label> <br>
+            <input type="number" min="0" max="10" class="iteradores" onchange="calcular()" placeholder="Elija Cantidad">
+
+        </div>
+
+
+        <div class="caja_producto3">
+
+            <img class="fotos" src="img/jugos.JPEG" alt="Imagen no disponible"> <br>
+            $<label for="precios" class="precios">1000</label> <br>
+            <input type="number" min="0" max="10" class="iteradores" onchange="calcular()" placeholder="Elija Cantidad">
+
+        </div>
+
+        <div class="vacio">
+
+
+        </div>
+
+      
+
+    </div> <!--Termino de cajota-->
+
+
+   
+
+    <br>
+
+    <button class="btnAgregar">
+
+        Agregar Producto
+    </button>
+
+
+    <br>
+
+    <button class="btnPrueba">
+        Prueba
+
+    </button>
+
+        <br>
+        <br>
+
+    <div class="cajota_precios">
+
+        <div>
+            SubTotal:
+            <label for="subtotal" id="subtotal" ></label>
+        </div>
+
+        <div>
+            Iva:
+            <label for="iva" id="iva"></label>
+        </div>
+
+        <div>
+            Total:
+            <label for="total" id="total"></label>
+        </div>
+
+    </div>
+
+    </div> <!--Termina el contenedor Caja-->
+
+      
+   </div> <!--- Termina el contenedor universal-->
+
+   <script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>

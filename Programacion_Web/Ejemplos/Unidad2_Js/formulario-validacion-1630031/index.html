@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="container">
+			
+			<div class="usuario">
+				<label>Usuario:</label>
+				<input type="text" id="usuario" name="usuario">
+			</div>
+			<div class = "contrase">
+				<label>Contraseña: </label>
+				<input type="text" id="contra" name="contra"> <br>
+				<label>Confirmar Contraseña: </label>
+				<input type="password" id="confirmo" name="confirmo">
+			</div>
+
+			<div class ="sexo">
+				<label>Sexo: </label>
+				<input type="radio" id="hombre" name="sexo" value="h" required>Hombre
+				<input type="radio" id="mujer" name="sexo" value="m" required>Mujer
+			</div>
+			<div class="fechan">
+				<label>Fecha de Nacimiento:</label>
+				<input type="text" id="fecha" name="fecha"><br>
+				<label>Edad: </label>
+				<input type="text" id="Edad" name="edad" disabled>
+			</div>
+			<div class="correo">
+				<label>Correo Electronico: </label>
+				<input type="text" id="correo" name="correo">
+			</div>
+
+
+			<div class="estado">
+				<label>Estado:</label>
+				<select id="state">
+					<option>Seleccione</option>
+					  <option>Tamaulipas</option>
+					  <option>Nuevo Léon</option>
+					  <option>Chihuahua</option>
+					  <option>Estado de mexico</option>
+					  <option>Tabasco</option>
+					  <option>Sinaloa</option>
+				</select>
+			</div>
+			<div class="ciudad">
+				<label>Ciudad:</label>
+				<select id="city">
+					<option>Seleccione</option>
+					  <option>Cd. Victoria</option>
+					  <option>Monterrey</option>
+					  <option>Hermosillo</option>
+					  <option>Saltillo</option>
+					  <option>Cd. Juárez</option>
+					  <option>Mochis</option>
+				</select>				
+			</div>			
+			<div class="botoncito">
+				<input type="submit" id="boton" name="Submit" onclick="validar();">
+			</div>
+		
+	</div>
+
+	<script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>

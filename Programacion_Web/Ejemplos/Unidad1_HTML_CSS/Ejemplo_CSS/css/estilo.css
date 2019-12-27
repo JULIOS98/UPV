@@ -1,0 +1,55 @@
+
+
+/*Selecto descendente*/
+nav{
+	background-color: lime;
+
+}
+
+nav ul{
+
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+
+	color:white;
+}
+
+
+
+
+
+/* Selector con etiquetas html*/
+h2,p{
+	/*color:rgb(200,2002,200)*/
+	color:hsl(120,90%,50%);
+	background-color: tomato;
+}
+
+
+/* Selector con ID*/
+#titulo{
+
+	color:white;
+	background-color: black;
+	font-size: 30px;
+}
+
+/* Selector con clase*/
+.titulo_esp{
+	color:yellow;
+	background-color: purple;
+	font-size: 25px;
+	text-align: right;
+}
+
+h2.titulo_gde{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}

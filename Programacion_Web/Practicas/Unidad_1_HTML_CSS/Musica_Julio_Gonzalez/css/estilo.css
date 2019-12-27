@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-principal: rgb(233, 134, 22); /*rgb(93, 173, 226);*/
+	--color-secundario: rgba(20, 1, 1, 0.938);
+	--color-titulos: white;
+}
+
+body{
+
+	/*Ancho de la Pagina*/width: 100%;
+	/*Lo centra y le pone el Margen*/ /*margin: auto/*;
+	/*Color de Fondo */ background-color: rgb(129, 109, 109);
+	/*Fondo con Imagen  background: url("../img/Fondo.PNG");
+	background-size: cover;
+	background-position: center;*/
+}
+
+
+h1, blockquote{
+	color: var(--color-titulos);
+}
+
+
+
+header{
+	background: red;
+	padding: 5px;
+	display: flex;
+}
+
+.Cabecera{
+
+
+	box-shadow: 1px 10px 5px var(--color-secundario);
+	border-radius: 200px 200px 200px 200px;
+
+	  
+	background-image: url("../img/titulo.PNG");
+	/*Ancho*/width:500px; 
+	/*largo*/height: 100px;
+
+	background-size: cover;
+	background-position: center;
+
+	position: relative ;
+	left: 450px;
+
+}
+
+.Navegador
+{
+	background: rgb(10, 11, 17);
+	padding: 10px;
+	display: flex;
+
+}
+
+/*Primer Bloque*/
+
+.Primer_Bloque
+{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.Foto{
+	background-image: url("../img/Banda.jpeg");
+	width: 50%;
+	background-size: cover;
+	
+}
+
+.Quien{
+	background: black;
+    width: 50%;
+    padding: 100px;
+
+}
+
+.Quien h1{
+
+	text-align: center;
+}
+
+.Quien blockquote{
+
+	
+	text-align: justify;
+}
+
+
+/*Segundo Bloque*/
+
+.Segundo_Bloque
+{
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Historia
+{
+	background: black;
+    width: 50%;
+    padding: 100px;
+
+}
+
+.Foto2
+{
+	background-image: url("../img/Historia.jpg");
+	width: 50%;
+	background-size: cover;
+
+}
+
+.Historia h1{
+	text-align: center;
+}
+
+.Historia blockquote{
+	text-align: justify;
+}
+
+
+
+
+
+/*Tercer Bloque*/
+
+.Discografia
+{
+	padding: 100px;
+
+}
+
+.Discografia h1{
+	text-align: center;
+}
+
+/*Cuarto Bloque*/
+
+.Cuarto_Bloque
+{
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Album_Evolve
+{
+	background-image: url("../img/Evolve.jpg");
+	width: 50%;
+	background-size: cover;
+
+
+}
+
+.Evolve
+{
+	background: black;
+    width: 50%;
+    padding: 100px;
+}
+
+/*Quinto Bloque*/
+
+.Quinto_Bloque
+{
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Album_Origins
+{
+	background-image: url("../img/Origins.jpg");
+	width: 50%;
+	background-size: cover;
+
+
+}
+
+.Origins
+{
+	background: black;
+    width: 50%;
+    padding: 100px;
+}
+
+/*Sexto Bloque*/
+
+.Musica
+{
+	padding: 100px;
+
+}
+
+.Musica h1{
+	text-align: center;
+}
+
+/*Septimo Bloque*/
+
+.Septimo_Bloque
+{
+	background: black;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.Descripcion
+{
+	
+    width: 50%;
+    padding: 100px;
+}
+
+
+
+/*Pie de Pagina*/
+footer{
+    background: red;
+    padding: 5px;
+    display: flex;
+}
+footer div{
+    padding-left: 20px;
+}
+footer a{
+    color: white;
+}
+
+
+
+
+
+
+

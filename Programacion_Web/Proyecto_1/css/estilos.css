@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: sans-serif; */
+    font-family: 'open sans';
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    /* background: rgb(255, 106, 93); */
+    /* background: rgb(255, 70, 53); */
+    background: rgba(255, 255, 255, 0.102);
+}
+header a{
+    /* color: white; */
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(30, 29, 119);
+    transition: all 0.2s ease-in-out;
+}
+.logo-nav{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h5{
+    text-transform: uppercase;
+}
+
+.nav-inicio ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.nav-inicio ul li{
+    display: inline-block;
+}
+.nav-inicio ul li a{
+    display: block;
+    font-size: 0.8rem;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.nav-inicio ul li a:hover{
+    background: rgb(30, 29, 119);
+    color: white;
+    transition: all 0.4s;
+}
+.logo{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: calc(93vh - 50px);
+    background-size: cover;
+    background-position: center;
+    transition: all 2s ease-in-out;
+    background-image: url('../img/banner/img2.jpg')
+}
+
+.banner-container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 21, 97, 0.363);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.banner-container h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: rgb(226, 47, 47);
+}
+.banner-container a{
+    margin-top: 20rem;
+    text-decoration: none;
+    background-color: rgb(30, 29, 119);
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.banner-container a:hover{
+    transition: all .3s ease-in-out;
+    padding: 15px 19px;
+}
+
+
+@media screen and (max-width:1000px){
+    .banner{
+        width: 100%;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:700px){
+    .banner{
+        width: 100%;
+        height: 300px;
+        background-position: center;
+    }
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-container h1{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    .banner-container a{
+        margin-top: 13rem;
+        padding-bottom: 5px 3px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .banner{
+        width: 514px;
+        height: 290px;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:300px){
+    .banner{
+        width: 100%;
+        height: 100px;
+        background-position: center;
+    }
+}
+
+
+.main-info{
+    width: 100%;
+}
+.main-nav-info{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(30, 29, 119);
+    /* max-width: 1400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav-info ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+.main-nav-info ul li{
+    display: inline-block;
+}
+.main-nav-info ul li a{
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    border-radius: 2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.main-nav-info ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 29, 119);
+    transition: all 0.3s linear;
+}
+.publ-main{
+    width: 100%;
+    margin: 0px;
+    background-color: white;
+}
+footer{
+    width: 100%;
+    background-color: rgb(71, 71, 71);
+    justify-content: center;;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer-div{
+    width: 80%;
+    margin: 0 2rem;
+}
+
+.footer-div ul{
+    list-style: none;
+}
+
+.footer-div ul li a{
+    color: rgb(238, 238, 238);
+    font-size: 0.8rem;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/* PAGINA 2 */
+
+#noticias{
+    background-color: rgb(30, 29, 119);
+    color: white;
+}
+
+.noticias-banner{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: calc(93vh - 50px);
+    background-size: cover;
+    background-position: center;
+    transition: all 2s ease-in-out;
+    background-image: url('../img/noticias/img1.jpg');
+    border-bottom: 1px solid rgb(185, 185, 185);    
+}
+.titulo-noticia{
+    color: rgb(100, 100, 100);
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.texto-noticia{
+    margin-bottom: 1rem;
+}
+.texto-noticia h3{
+    color: rgb(51, 51, 51);
+    margin-left: 1rem;
+}
+.texto-noticia p{
+    color: rgb(51, 51, 51);
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+.texto-noticia ul{
+    color: rgb(51, 51, 51);
+    font-size: 0.8rem;
+}
+.texto-noticia ul li{
+    margin-left: 2rem;
+}
+
+
+/* PAGINA 3 */
+
+#cedej{
+    background: rgb(30, 29, 119);
+    color: white;
+}
+
+.div-cedej h1{
+    text-align: center;
+    margin: 0 0 0.8rem 0;
+    font-weight: 300;
+}
+.container-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.container-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px  3px 0px rgba(255, 255, 255, 0.75);
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tema-cedej{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(30, 29, 119, 0.568);
+    width: 100%;
+    height: 0%;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.tema-cedej h3{
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .tema-cedej{
+    height: 30%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .container-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container-imagenes{
+        width: 90%;
+    }
+    .container-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size: 1.3rem;
+    }
+    .container-imagenes{
+        width: 98%;
+    }
+    .container-imagenes .imagen{
+        width: 80%;
+    }
+}
+
+.agregar-producto-div{
+  width: 100%;
+}
+
+.boton-agrega{
+  background: rgb(92, 76, 211);
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  padding: 2px;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+}
+
+
+/* PAGINA 4 */
+
+#conocenos{
+    background: rgb(30, 29, 119);
+    color: white;
+}
+
+.section-conocenos-principal{
+    position: relative;
+    width: 100%;
+    height: calc(180vh - 50px);
+    background-size: cover;
+    background-position: center;
+    transition: all 1s ease-in-out;
+    background: rgb(30, 29, 119);
+    /* background-image: url("../img/conocenos/img1.jpg"); */
+}
+
+.div-conocenos-objetivo{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.253);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.div-conocenos{
+    margin-top: 0.05rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+    width: 75%;
+    height: 100%;
+    /* border-top: 1px solid rgb(245, 84, 84); */
+    background: rgb(255, 255, 255);
+}
+.div-conocenos h1{
+    text-align: center;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.div-conocenos p{
+    text-align: justify;
+    color: rgb(77, 77, 77);
+    font-size: 0.8rem;
+    text-align: center;
+}
+#humanidad{
+    color: rgb(243, 139, 41);
+}
+#imparcialidad{
+    color: rgb(114, 202, 13);
+}
+#neutralidad{
+    color: rgb(38, 46, 160);
+}
+#independencia{
+    color: rgb(13, 117, 202);
+}
+#voluntariado{
+    color: rgb(98, 27, 146);
+}
+#unidad{
+    color: rgb(218, 214, 6);
+}
+#universalidad{
+    color: rgb(202, 13, 170);
+}

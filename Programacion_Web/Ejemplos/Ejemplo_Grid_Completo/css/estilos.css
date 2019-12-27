@@ -1,0 +1,48 @@
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto 30%;
+    grid-template-rows: 100px 400px 100px;
+    grid-template-areas: 'encabezado encabezado' 'principal lateral' 'pie pie';
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.menu ul li{
+    margin-right: 1rem;
+}
+.menu ul li:nth-child(3){
+    margin-left: auto;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+.menu ul li a:hover{
+    color:#b5b5b5;
+}
+header{
+    grid-area: encabezado;
+    background-color: red;
+}
+main{
+    grid-area: principal;
+    background-color: blue;
+}
+aside{
+    grid-area: lateral;
+    background-color: lime;
+}
+footer{
+    grid-area: pie;
+    background-color: orange;
+}
+footer div{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-right: 1rem;
+}

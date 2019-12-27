@@ -1,0 +1,16 @@
+IMPORTANTE!!
+
+crear una subcarpeta llamada css y coloca dentro el archivo "estilo.css"
+crear una subcarpeta llamada img y dentro de ella colocar tu foto. Si el archivo de tu foto no se llama "foto.png" deberás ir al archivo "estilo.css" y adecuar el nombre/extensión en el selector de la clase foto
+
+---------------------------------------------------------------------------------------------------------------------
+
+Observa las imágenes anexas y ve como el archivo css le agrega el estilo a la estructra html mejorando ampliamente su apariencia.
+Acostúmbrate a emplear hojas de estilo. 
+
+Recuerda: 
+	APRENDE Y PRÁCTICA, 
+	APRENDE Y PRÁCTICA
+
+No te quedes solo con la práctica que yo pueda ponerte. En la medida de lo posible práctica lo aprendido en otros casos o ejemplos, se creativo
+

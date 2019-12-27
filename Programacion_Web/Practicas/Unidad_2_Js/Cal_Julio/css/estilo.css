@@ -1,0 +1,37 @@
+:root
+{
+    --fondo: gray;
+    --color-calc: white;
+}
+
+body{
+    background-color: var(--fondo);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+ 
+}
+
+.contenedor_universal
+{
+    background-color: var(--color-calc);
+}
+
+button
+{
+    color: black;
+    width: 90px;
+    height: 90px;
+ 
+
+}
+
+#pantalla
+{
+    width: 360px;
+    height: 50px;
+    background-position-x: 40px;
+}
+
+

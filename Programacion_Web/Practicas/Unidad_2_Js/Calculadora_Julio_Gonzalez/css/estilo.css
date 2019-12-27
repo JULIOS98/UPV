@@ -1,0 +1,17 @@
+:root
+{
+    --fondo: red;
+    --color-calc: white;
+}
+
+body{
+    background-color: var(--fondo);
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.contenedor_universal
+{
+    background-color: var(--color-calc);
+}

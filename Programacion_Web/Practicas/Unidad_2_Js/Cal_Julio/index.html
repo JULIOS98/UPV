@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Calculadora Julio</title>
+</head>
+<body>
+
+   
+        <div class="contenedor_universal">
+
+            <div class="principal">
+
+                <div>
+                     <input type="text" id="pantalla" disabled>
+                </div> 
+                
+                <br>
+                
+                <div>
+                    <input type="radio" id="ON"  name="isPrendido" value="ON" onchange="isPrendido('ON')">
+                    <label for="">ON</label>
+                </div>
+                
+                <div>
+                    <input type="radio"  name="isPrendido" value="OFF" onchange="inPrendido('OFF')">
+                    <label for="">OFF</label>
+                </div>
+                
+                
+                <div>
+                    <button onclick='presiona(7);'> 7 </button>
+                    <button onclick='presiona(8);'> 8 </button>
+                    <button onclick='presiona(9);'> 9 </button>
+                    <button onclick='presiona("+");'> + </button>
+                </div>
+        
+                
+                <div>
+                    <button onclick='presiona(4);'> 4</button>
+                    <button onclick='presiona(5);'> 5</button>
+                    <button onclick='presiona(6);'> 6</button>
+                    <button onclick='presiona("-");'> - </button>
+                </div>
+        
+                
+                <div>
+                    <button onclick='presiona(1);' >1</button>
+                    <button onclick='presiona(2);' >2</button>
+                    <button onclick='presiona(3);'>3</button>
+                    <button onclick='presiona("/");'> / </button>
+                </div>
+        
+                <div>
+                    <button onclick='presiona("=");'>=</button>
+                    <button onclick='presiona(0);'>0</button>
+                    <button onclick='presiona("c");'>C</button>
+                    <button onclick='presiona("x");' > X </button>
+                </div>
+                
+            </div>
+        
+        </div>
+
+    
+
+          
+            <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

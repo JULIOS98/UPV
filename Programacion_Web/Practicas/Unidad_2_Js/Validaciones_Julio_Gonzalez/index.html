@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicios Validaciones</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div id="contenedor_universal">
+
+        <div id="titulo">
+            <h1>Validacion Formulario</h1>
+        </div>
+
+    <div id="tabla">
+
+  
+        
+        <div id="user">
+            <label for="nombre_usuario" class="etiquetas" id="nombre_usuario"> Nombre Usuario: </label>
+            <input type="text" id="nombre">
+        
+        </div>
+
+        <br>
+
+        <div id="pass">
+            <label for="contraseña_usuario" class="etiquetas" id="contraseña_usuario"> Contraseña</label>
+            <input type="text" id="contraseña" >
+        </div>
+
+        <br>
+
+        <div id="con_pass">
+            <label for="confirmar_contraseña" class="etiquetas" id="confirmar_contraseña" onchange="validarContraseña();"> Confirmar Contraseña: </label>
+            <input type="text" id="confirmar">
+
+        </div>
+
+        <br>
+
+        <div id="corr">
+            <label for="email" class="etiquetas" id="email"> Correo:</label>
+            <input type="text" id="correo" >
+
+        </div>
+
+        <br>
+
+        <div id="sexo">
+
+            <label for="masc" class="etiquetas" id="masc"> Masculino</label>
+            <input type="radio" name="sexo" id="hombre" value="M"  required>
+
+            <label for="fem" class="etiquetas" id="fem"> Femenino</label>
+            <input type="radio" name="sexo" id="mujer" value="F" required>
+
+        </div>
+        
+        <br>
+
+        <div>
+            <button id="boton"  onclick="validarGlobal();"> Validar</button>
+        </div>
+ 
+    </div>
+    </div>
+
+   
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

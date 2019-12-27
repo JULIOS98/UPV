@@ -1,0 +1,108 @@
+
+#contenedor_universal
+{
+    background-color: rgb(90, 78, 78); 
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgba(161, 95, 40, 0.644);
+}
+
+#titulo
+{
+    text-align: center;
+    font-family: cursive;
+    color: chocolate;
+}
+
+#cajita
+{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+   
+}
+
+#tablero
+{
+    
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border: 5px solid rgba(172, 80, 27, 0.5);
+   
+}
+
+.cartaNeutral
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+div[cl^="cart"] {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+div.cartaNeutral
+{
+    background-color: white;
+}
+
+div.cartaRojo {
+    background-color: red;
+}
+  
+div.cartaAzul {
+    background-color: blue;
+}
+  
+div.cartaVerde {
+    background-color: green;
+}
+  
+div.cartaRosa {
+    background-color: palevioletred;
+}
+
+div.cartaAmarillo
+{
+    background-color: yellow;
+}
+
+div.cartaMorado
+{
+    background-color: purple;
+}
+
+.score
+{
+    font-size: 20px;
+    font-family: cursive;
+    color: chocolate;
+}
+
+.intentos
+{
+    font-size: 20px;
+    font-family: cursive;
+    color: chocolate;
+}
+
+#res
+{
+    font-size: 20px;
+    font-family: cursive;
+    color: chocolate;
+   
+   
+}
+

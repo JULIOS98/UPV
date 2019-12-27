@@ -1,0 +1,57 @@
+:root
+{
+    --fondo: rgb(143, 159, 245);
+    --fondo2: white;
+}
+
+body
+{
+    background-color: var(--fondo);
+}
+.contenedor_universal
+{
+    background-color: var(--fondo);
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+
+.Caja
+{
+    background-color: var(--fondo2);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cajota_productos
+{
+ 
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+#titulo
+{
+    text-align: center;
+}
+
+
+.cajota_precios
+{
+   margin-bottom: 20px;
+    margin-left: 20px;  
+}
+
+.boton
+{
+    margin-bottom: 20px;
+    margin-left: 20px;  
+}
+
+
+input
+{
+    width: 25%;
+}

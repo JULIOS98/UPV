@@ -1,0 +1,34 @@
+#caja
+{
+    display: flex;
+    flex-direction: row-reverse;
+    background: gray;
+    margin: 20px;
+    border: 5px solid yellow;
+    padding: 20px;
+
+}
+
+.grupo
+{
+    width: 200px;
+    height: 200px;
+    margin: 20px; 
+
+}
+
+#c1
+{
+    background: red
+
+}
+
+#c2
+{
+    background-color: magenta;
+}
+
+#c3
+{
+    background: black;
+}

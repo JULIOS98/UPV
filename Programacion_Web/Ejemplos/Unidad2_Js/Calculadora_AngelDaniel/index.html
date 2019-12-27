@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+
+	<div class="principal container">
+
+		<div class="container mt-4">
+			<input type="text" class="form-group" id="pantalla" disabled>
+		</div><br>
+
+		<div>
+			<input type="radio"  name="power" value="ON" onchange="power('ON')">
+			<label for="">ON</label>
+		</div>
+		
+		<div>
+			<input type="radio" name="power" value="OFF" onchange="power('OFF')">
+			<label for="">OFF</label>
+		</div>
+
+		<div class="fila" >
+			<button onclick='presiona(7);'>7</button>
+			<button onclick='presiona(8);'>8</button>
+			<button onclick='presiona(9);'>9</button>
+			<button onclick='presiona("+");'>+</button>
+		</div>
+
+		<div>
+			<button onclick='presiona(4);'>4</button>
+			<button onclick='presiona(5);'>5</button>
+			<button onclick='presiona(6);'>6</button>
+			<button onclick='presiona("-");'>-</button>
+		</div>
+
+		<div>
+			<button onclick='presiona(1);'>1</button>
+			<button onclick='presiona(2);'>2</button>
+			<button onclick='presiona(3);'>3</button>
+			<button onclick='presiona("/");'>/</button>
+		</div>
+
+		<div>
+			<button onclick='presiona(0);'>0</button>
+			<button onclick='presiona("=");'>=</button>
+			<button onclick='presiona("c");'>C</button>
+			<button onclick='presiona("x");'>x</button>
+
+		</div>
+
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>

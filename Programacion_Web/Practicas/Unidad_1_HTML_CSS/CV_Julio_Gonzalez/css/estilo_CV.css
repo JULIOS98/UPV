@@ -1,0 +1,50 @@
+:root{
+	--color-principal:;
+	--color-secundaria:;
+}
+
+
+body{
+	width: 1000px;
+	margin: auto;
+}
+
+table, tr , th,td{
+	border:solid 1px;
+}
+
+
+.titulo{
+
+	text-align: center;
+	color: white;
+}
+
+
+.Listas{
+
+	list-style-type: square;
+}
+
+h2,h1{
+	color:white;
+	background-color: purple;
+}
+
+.Red{
+	width: 800px;
+	margin: auto;
+}
+
+
+footer{
+	justify-content: space-around;
+	
+}
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora IMC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h1 class="importante">Calculadora IMC</h1>
+		<div class="principal">
+			<div class="datos">
+				<!--form action="" onsubmit="calcular(e);"  >-->
+					<fieldset>
+						<legend>Datos</legend>
+						<div>
+							<label for="peso" class="etiqueta">Peso:</label>
+							<input type="number" id="peso" min="0" max="300"  placeholder="Peso(kg)" required>
+						</div>
+						<div>
+							<label for="estatura" class="etiqueta">Estatura:</label>
+							<input type="number" id="estatura" min="0" max="2.50" step=".01" placeholder="Estatura (m)" required>
+						</div>
+						<div class="botones">
+							<input type="reset" value="Reiniciar" onclick="limpiar();" class="btn"/>
+							<input type="submit" value="Calcular" onclick="calcular();" class="btn"/>
+						</div>
+					</fieldset>
+				<!--/form>-->
+
+				<fieldset>
+					<legend>Resultados:</legend>
+					<div>
+						<label for="" class="etiqueta">IMC:</label>
+						<label id="imc" class="resultado"></label>
+					</div>
+					<div>
+						<label class="etiqueta">Categoría:</label>
+						<label id="cat" class="importante resultado"></label>		
+					</div>
+				</fieldset>
+			</div>
+			<div  id="imagen" class="imagen">
+				<!-- aqui va la imagen con la complexion. Se carga en el css-->
+			</div>
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
